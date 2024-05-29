@@ -5,6 +5,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
+const env = require("dotenv");
+env.config();
 const PORT = process.env.PORT || 3000;
 app.use(
   cors({
@@ -12,13 +14,10 @@ app.use(
   })
 );
 // Connect to MongoDB
-mongoose.connect(
-  "mongodb+srv://Subham:GgGmxXJV1KwzuoqA@cluster0.jwqauu0.mongodb.net/IPL2023?retryWrites=true&w=majority", //REPLACE YOUR MONGODB CLOUD URL
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(process.env.DB_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 db.once("open", () => console.log("Connected to MongoDB"));
