@@ -27,3 +27,29 @@ To execute the backend server run the below command
 ```bash
 npm install
 ```
+
+## Screenshots
+
+
+Add User
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/34c31d68-9734-4bb3-8711-cbc62ff553c2)
+
+Add Task
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/e5a259cf-9e6c-45db-a2a0-66fe6cd7a8d1)
+
+Task Dashboard
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/cbefd06d-7fc7-4330-80d0-2e5ff7c01d79)
+
+Task Details
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/0f7f4eed-3315-409f-b3df-e961abe60109)
+
+Edit Task
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/f86ca3c3-ab7f-4a20-96b7-7d784e31a854)
+
+User dashboard
+![image](https://github.com/rg85rajat/Project-Management-Tool/assets/72291911/34bcf265-d395-48ea-ac2b-4ad0148cbd7e)
+
+
+
+
+
