@@ -33,6 +33,10 @@ npm start
 Create a .env file inside the Backend folder.
 Use DB_URL as the keyword to specify the database connection URL.
 
+```bash
+DB_URL = "your_database_connection_url_here" 
+```
+
 
 
 
