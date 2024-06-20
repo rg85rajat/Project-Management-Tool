@@ -26,7 +26,15 @@ npm run dev
 To execute the backend server run the below command
 ```bash
 npm install
+
+npm start
 ```
+
+Create a .env file inside the Backend folder.
+Use DB_URL as the keyword to specify the database connection URL.
+
+
+
 
 ## Screenshots
 
